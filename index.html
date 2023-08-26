@@ -11,33 +11,32 @@
 <body>
     <div id="titulo">
         <h1> JOGO DA VELHA</h1>
-        <P id="Partida">1</P>
+        <P id ="status"></P>
     </div>
 
     <div id="principal">
         <div class="placar">
             <div class="jogador">Vinicius</div>
-            <div class="resultado">0</div>
+            <div class="resultado" id = "r1">0</div>
         </div>
 
         <div class="jogo">
-                <a href="#"id="quadradinho"></a>
-                <a href="#"id="quadradinho"></a>
-                <a href="#"id="quadradinho"></a>
+                <a href="#" class = "quadradinho" id ="q1" onclick="mudaQuadradinho(this)"></a>
+                <a href="#" class = "quadradinho" id ="q2" onclick="mudaQuadradinho(this)"></a>
+                <a href="#" class = "quadradinho" id ="q3" onclick="mudaQuadradinho(this)"></a>
 
-                <a href="#"id="quadradinho"></a>
-                <a href="#"id="quadradinho"></a>
-                <a href="#"id="quadradinho"></a>
+                <a href="#" class = "quadradinho" id ="q4" onclick="mudaQuadradinho(this)"></a>
+                <a href="#" class = "quadradinho" id ="q5" onclick="mudaQuadradinho(this)"></a>
+                <a href="#" class = "quadradinho" id ="q6" onclick="mudaQuadradinho(this)"></a>
 
-                <a href="#"id="quadradinho"></a>
-                <a href="#"id="quadradinho"></a>
-                <a href="#"id="quadradinho"></a>
-
+                <a href="#" class = "quadradinho" id ="q7" onclick="mudaQuadradinho(this)"></a>
+                <a href="#" class = "quadradinho" id ="q8" onclick="mudaQuadradinho(this)"></a>
+                <a href="#" class = "quadradinho" id ="q9" onclick="mudaQuadradinho(this)"></a>
         </div>
         
         <div class="placar">
-         <div class="jogador">Miriany</div>
-         <div class="resultado">0</div>
+         <div class="jogador">Adversario</div>
+         <div class="resultado" id = "r2">0</div>
     </div>
 
     <script src="script.js"></script>
